@@ -1,0 +1,558 @@
+{
+  "id": "703a6dba-7693-4dbf-866d-c9b7d7a6e8c7",
+  "version": "2.0",
+  "name": "FindADate",
+  "url": "https://securereg3.prometric.com",
+  "tests": [{
+    "id": "5c458d5b-2afe-466e-b135-76e345aa0bea",
+    "name": "4235",
+    "commands": [{
+      "id": "b2736bc4-45cd-4c92-843e-c187733bce50",
+      "comment": "",
+      "command": "open",
+      "target": "/Welcome.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c6d1c5b-31b6-4213-a3ee-2889d4f3c68a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1420x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dd80aba-e705-4714-aeba-461ed451fad4",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_rbnProfLisc",
+      "targets": [
+        ["id=masterPage_cphPageBody_rbnProfLisc", "id"],
+        ["css=#masterPage_cphPageBody_rbnProfLisc", "css:finder"],
+        ["xpath=//input[@id='masterPage_cphPageBody_rbnProfLisc']", "xpath:attributes"],
+        ["xpath=//div[@id='rightcontent']/div[4]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4a4df58-b305-40b4-9533-4b0c87e7814a",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlPrograms",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlPrograms", "id"],
+        ["name=masterPage$cphPageBody$ddlPrograms", "name"],
+        ["css=#masterPage_cphPageBody_ddlPrograms", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlPrograms']", "xpath:attributes"],
+        ["xpath=//div[@id='rightcontent']/div[4]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8896550-99e6-4c6f-a52c-859d59a5ef23",
+      "comment": "",
+      "command": "select",
+      "target": "id=masterPage_cphPageBody_ddlPrograms",
+      "targets": [],
+      "value": "label=National Board of Osteopathic Medical Examiners (NBOME)"
+    }, {
+      "id": "ea554c94-db79-49f9-825d-dcbd779c6bcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlPrograms",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlPrograms", "id"],
+        ["name=masterPage$cphPageBody$ddlPrograms", "name"],
+        ["css=#masterPage_cphPageBody_ddlPrograms", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlPrograms']", "xpath:attributes"],
+        ["xpath=//div[@id='rightcontent']/div[4]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a07c8a2-8376-4aef-979c-37b1e351fd3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlCountry",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlCountry", "id"],
+        ["name=masterPage$cphPageBody$ddlCountry", "name"],
+        ["css=#masterPage_cphPageBody_ddlCountry", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlCountry']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlCountry']/select", "xpath:idRelative"],
+        ["xpath=//td/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca6120e-d298-4806-a44e-5328e560bcae",
+      "comment": "",
+      "command": "select",
+      "target": "id=masterPage_cphPageBody_ddlCountry",
+      "targets": [],
+      "value": "label=UNITED STATES"
+    }, {
+      "id": "d97a31cc-2529-4b27-bcf9-85a457b593a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlCountry",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlCountry", "id"],
+        ["name=masterPage$cphPageBody$ddlCountry", "name"],
+        ["css=#masterPage_cphPageBody_ddlCountry", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlCountry']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlCountry']/select", "xpath:idRelative"],
+        ["xpath=//td/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb8205ca-92fb-4384-9a77-d2b1c19c5627",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlStateProvince",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlStateProvince", "id"],
+        ["name=masterPage$cphPageBody$ddlStateProvince", "name"],
+        ["css=#masterPage_cphPageBody_ddlStateProvince", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlStateProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlStateProvince']/select", "xpath:idRelative"],
+        ["xpath=//td[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87bd023a-26bd-4c83-8cac-9302dba95077",
+      "comment": "",
+      "command": "select",
+      "target": "id=masterPage_cphPageBody_ddlStateProvince",
+      "targets": [],
+      "value": "label=New York"
+    }, {
+      "id": "9b30e237-90b4-4772-9aab-54162d877055",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlStateProvince",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlStateProvince", "id"],
+        ["name=masterPage$cphPageBody$ddlStateProvince", "name"],
+        ["css=#masterPage_cphPageBody_ddlStateProvince", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlStateProvince']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlStateProvince']/select", "xpath:idRelative"],
+        ["xpath=//td[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82bf740d-e4bc-478f-b904-8c4700ffa2a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_btnNext",
+      "targets": [
+        ["id=masterPage_cphPageBody_btnNext", "id"],
+        ["name=masterPage$cphPageBody$btnNext", "name"],
+        ["css=#masterPage_cphPageBody_btnNext", "css:finder"],
+        ["xpath=//input[@id='masterPage_cphPageBody_btnNext']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlButtons']/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aba850a-8ea2-49a4-8f26-e1b0c8b65548",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//a[contains(text(),'Search for Availability')]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "07a3d795-56c1-4b45-a901-694f33176923",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Search for Availability')]",
+      "targets": [
+        ["id=masterPage_cphPageBody_lnkSeatAvail2", "id"],
+        ["linkText=Search for Availability", "linkText"],
+        ["css=#masterPage_cphPageBody_lnkSeatAvail2", "css:finder"],
+        ["xpath=//a[contains(text(),'Search for Availability')]", "xpath:link"],
+        ["xpath=//a[@id='masterPage_cphPageBody_lnkSeatAvail2']", "xpath:attributes"],
+        ["xpath=//div[@id='rightcontent']/table[5]/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'pageredirection.aspx?mode=seatavail')])[2]", "xpath:href"],
+        ["xpath=//table[5]/tbody/tr/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Search for Availability')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea7c0fc-8bad-47ff-886a-4235227ba307",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=masterPage_cphPageBody_ddlExam",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e122dbc2-a400-4969-97d3-ba83a6a5af0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlExam",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlExam", "id"],
+        ["name=masterPage$cphPageBody$ddlExam", "name"],
+        ["css=#masterPage_cphPageBody_ddlExam", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlExam']", "xpath:attributes"],
+        ["xpath=//div[@id='rightcontent']/div[4]/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a21f1f23-7bdc-4508-a208-ee08e1b18081",
+      "comment": "",
+      "command": "select",
+      "target": "id=masterPage_cphPageBody_ddlExam",
+      "targets": [],
+      "value": "label=COMLEX Level 3"
+    }, {
+      "id": "d496a33f-e2c3-4e91-a19b-a283dc3bc20c",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_ddlExam",
+      "targets": [
+        ["id=masterPage_cphPageBody_ddlExam", "id"],
+        ["name=masterPage$cphPageBody$ddlExam", "name"],
+        ["css=#masterPage_cphPageBody_ddlExam", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_ddlExam']", "xpath:attributes"],
+        ["xpath=//div[@id='rightcontent']/div[4]/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85a9842f-e6cc-48a4-ab32-415056c53286",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_btnNext",
+      "targets": [
+        ["id=masterPage_cphPageBody_btnNext", "id"],
+        ["name=masterPage$cphPageBody$btnNext", "name"],
+        ["css=#masterPage_cphPageBody_btnNext", "css:finder"],
+        ["xpath=//input[@id='masterPage_cphPageBody_btnNext']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlButtons']/input[2]", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10337327-d8d1-4069-8b75-bd31402697e1",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "id=txtSearch",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "33d98356-df41-46d7-b069-c7d44c6c3963",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='pSiteSearch']/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e4b1c10-4c53-48f5-940f-6e48b4795187",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtSearch",
+      "targets": [
+        ["id=txtSearch", "id"],
+        ["css=#txtSearch", "css:finder"],
+        ["xpath=//input[@id='txtSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='pSiteSearch']/span/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "11213"
+    }, {
+      "id": "64c4d829-0e57-4434-8404-9b2563453036",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSearch",
+      "targets": [
+        ["id=btnSearch", "id"],
+        ["css=#btnSearch", "css:finder"],
+        ["xpath=//input[@id='btnSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='pSiteSearch']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5d47ad0-152f-4b06-8bfb-5901a356dd12",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSearch",
+      "targets": [
+        ["id=btnSearch", "id"],
+        ["css=#btnSearch", "css:finder"],
+        ["xpath=//input[@id='btnSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='pSiteSearch']/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2afb2830-e2dc-4f14-ac95-58bf72f3df22",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//a[@onclick=\"IWRDisplay.submitSite('4235');\"]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "2bdbcbb2-9d88-45d9-b55d-56f13d01df9f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@onclick=\"IWRDisplay.submitSite('4235');\"]",
+      "targets": [
+        ["linkText=Availability", "linkText"],
+        ["css=.site_row:nth-child(1) > .site_row_right > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Availability')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"IWRDisplay.submitSite('4235');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='sites_container']/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#4235')])[2]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Availability')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e146ab91-8505-4a0a-a48b-36d5c6bd0ddc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "90a19bc8-7a07-4862-8c9a-0618e2cbc6f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [
+        ["id=masterPage_cphPageBody_monthYearlist", "id"],
+        ["name=masterPage$cphPageBody$monthYearlist", "name"],
+        ["css=#masterPage_cphPageBody_monthYearlist", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_monthYearlist']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a446fac1-c926-494c-8cbf-e0b384b76382",
+      "comment": "",
+      "command": "select",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [],
+      "value": "label=December 2021"
+    }, {
+      "id": "5ce8d429-cac2-4d79-a3ee-99b2d35aaf1d",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [
+        ["id=masterPage_cphPageBody_monthYearlist", "id"],
+        ["name=masterPage$cphPageBody$monthYearlist", "name"],
+        ["css=#masterPage_cphPageBody_monthYearlist", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_monthYearlist']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac8b4141-2675-4b5f-b4cc-72b4219b2206",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_btnGoCal",
+      "targets": [
+        ["id=masterPage_cphPageBody_btnGoCal", "id"],
+        ["name=masterPage$cphPageBody$btnGoCal", "name"],
+        ["css=#masterPage_cphPageBody_btnGoCal", "css:finder"],
+        ["xpath=//input[@id='masterPage_cphPageBody_btnGoCal']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "645632cc-aff3-4f28-aab3-d3450e662168",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//caption[contains(.,'December 2021')]",
+      "targets": [
+        ["css=caption", "css:finder"],
+        ["xpath=//table[@id='masterPage_cphPageBody_calSeatSelectionCalendar_7']/tbody/tr/td/table/tbody/tr/td/caption", "xpath:idRelative"],
+        ["xpath=//caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'July 2021')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "82afbd49-b715-42b9-9f38-7f01f060b0b1",
+      "comment": "Assert atleast one date is active.",
+      "command": "assertElementPresent",
+      "target": "xpath=//td[@class='calActive']",
+      "targets": [
+        ["id=20211213", "id"],
+        ["css=#\\32 0211213", "css:finder"],
+        ["xpath=//td[@id='20211213']", "xpath:attributes"],
+        ["xpath=//table[@id='masterPage_cphPageBody_calSeatSelectionCalendar_12']/tbody/tr[5]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "323e625d-f2fd-446f-aa7a-cd93b95900aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [
+        ["id=masterPage_cphPageBody_monthYearlist", "id"],
+        ["name=masterPage$cphPageBody$monthYearlist", "name"],
+        ["css=#masterPage_cphPageBody_monthYearlist", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_monthYearlist']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71fdc8e-3810-4533-af8e-454754465a7b",
+      "comment": "",
+      "command": "select",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [],
+      "value": "label=July 2021"
+    }, {
+      "id": "fe78bae8-06bc-460f-acb0-5173bf26e862",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [
+        ["id=masterPage_cphPageBody_monthYearlist", "id"],
+        ["name=masterPage$cphPageBody$monthYearlist", "name"],
+        ["css=#masterPage_cphPageBody_monthYearlist", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_monthYearlist']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5144680f-2af0-4e5d-8911-ce8bc6b015dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_btnGoCal",
+      "targets": [
+        ["id=masterPage_cphPageBody_btnGoCal", "id"],
+        ["name=masterPage$cphPageBody$btnGoCal", "name"],
+        ["css=#masterPage_cphPageBody_btnGoCal", "css:finder"],
+        ["xpath=//input[@id='masterPage_cphPageBody_btnGoCal']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90f88cf9-729b-43ce-bdaf-dfeaf52024e2",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//caption[contains(.,'July 2021')]",
+      "targets": [
+        ["css=caption", "css:finder"],
+        ["xpath=//table[@id='masterPage_cphPageBody_calSeatSelectionCalendar_7']/tbody/tr/td/table/tbody/tr/td/caption", "xpath:idRelative"],
+        ["xpath=//caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'July 2021')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "32ba256c-489b-40c3-b895-a2f551ee70be",
+      "comment": "FAIL test if any date is active!",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//td[@class='calActive']",
+      "targets": [
+        ["id=20211213", "id"],
+        ["css=#\\32 0211213", "css:finder"],
+        ["xpath=//td[@id='20211213']", "xpath:attributes"],
+        ["xpath=//table[@id='masterPage_cphPageBody_calSeatSelectionCalendar_12']/tbody/tr[5]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bf643fb-52ac-4bde-a340-c5d673053313",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [
+        ["id=masterPage_cphPageBody_monthYearlist", "id"],
+        ["name=masterPage$cphPageBody$monthYearlist", "name"],
+        ["css=#masterPage_cphPageBody_monthYearlist", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_monthYearlist']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "016846bb-029d-49ec-b52c-6dcf5c88e0df",
+      "comment": "",
+      "command": "select",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [],
+      "value": "label=August 2021"
+    }, {
+      "id": "0eb832f8-0170-4761-89d3-8bb0107e8515",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_monthYearlist",
+      "targets": [
+        ["id=masterPage_cphPageBody_monthYearlist", "id"],
+        ["name=masterPage$cphPageBody$monthYearlist", "name"],
+        ["css=#masterPage_cphPageBody_monthYearlist", "css:finder"],
+        ["xpath=//select[@id='masterPage_cphPageBody_monthYearlist']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef4cc491-1872-498a-ad2a-b49fbf75c7ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=masterPage_cphPageBody_btnGoCal",
+      "targets": [
+        ["id=masterPage_cphPageBody_btnGoCal", "id"],
+        ["name=masterPage$cphPageBody$btnGoCal", "name"],
+        ["css=#masterPage_cphPageBody_btnGoCal", "css:finder"],
+        ["xpath=//input[@id='masterPage_cphPageBody_btnGoCal']", "xpath:attributes"],
+        ["xpath=//div[@id='pSeats']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3643dc14-910b-42f1-a113-93fabd05ea4f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//caption[contains(.,'August 2021')]",
+      "targets": [
+        ["css=caption", "css:finder"],
+        ["xpath=//table[@id='masterPage_cphPageBody_calSeatSelectionCalendar_7']/tbody/tr/td/table/tbody/tr/td/caption", "xpath:idRelative"],
+        ["xpath=//caption", "xpath:position"],
+        ["xpath=//caption[contains(.,'July 2021')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "33050ff7-cd2a-4216-9630-1bdce06dcea1",
+      "comment": "FAIL test if any date is active!",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//td[@class='calActive']",
+      "targets": [
+        ["id=20211213", "id"],
+        ["css=#\\32 0211213", "css:finder"],
+        ["xpath=//td[@id='20211213']", "xpath:attributes"],
+        ["xpath=//table[@id='masterPage_cphPageBody_calSeatSelectionCalendar_12']/tbody/tr[5]/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8a1c9a68-abc4-41a2-9875-fac81d1a2476",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5c458d5b-2afe-466e-b135-76e345aa0bea"]
+  }],
+  "urls": ["https://securereg3.prometric.com/"],
+  "plugins": []
+}
